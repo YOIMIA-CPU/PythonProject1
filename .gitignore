@@ -1,0 +1,32 @@
+# ---- JetBrains / PyCharm ----
+.idea/
+*.iml
+
+# ---- Python ----
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# ---- Virtualenv ----
+.venv/
+venv/
+env/
+
+# ---- Build / dist ----
+build/
+dist/
+*.egg-info/
+
+# ---- Logs ----
+*.log
+
+# ---- OS ----
+.DS_Store
+Thumbs.db
+
+# ---- Media / Large files ----
+*.mp4
+*.mov
+*.avi
